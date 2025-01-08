@@ -1,0 +1,32 @@
+# Ignoriere den target-Ordner (Build-Artefakte)
+target/
+
+# Ignoriere den src/test-Ordner (Testdateien, die von der Universität erstellt wurden)
+src/test/
+
+# Ignoriere temporäre Dateien und Ordner
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignoriere Konfigurationsdateien von IDEs
+.idea/
+*.iml
+.vscode/
+
+# Ignoriere Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Ignoriere Build-Tools-spezifische Dateien
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Ignoriere versteckte Dateien von Tools wie TMC
+.tmcproject.yml
+
+# Ignoriere eventuell generierte Backup-Dateien
+*~
