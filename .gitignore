@@ -33,14 +33,11 @@ pom.xml.next
 # Ignore macOS-specific files
 *.DS_Store
 
-# Ignore .json files
+# Ignoriere .json-Dateien
 *.json
 
-# Ignore pom.xml
-*.xml
+# Ignoriere alle pom.xml-Dateien im Projekt
+**/pom.xml
 
-# Ignore target directories
-target/
-
-# Ignore all files in src/test/java/
+# Ignoriere alle Dateien in src/test/java/
 src/test/java/
