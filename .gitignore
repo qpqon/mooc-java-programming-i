@@ -1,8 +1,9 @@
 # Ignoriere den target-Ordner (Build-Artefakte)
 target/
 
-# Ignoriere den src/test-Ordner (Testdateien, die von der Universität erstellt wurden)
-src/test/
+# Ignoriere nur Java-Dateien unter src/test/
+src/test/**/*.java
+
 
 # Ignoriere temporäre Dateien und Ordner
 *.log
