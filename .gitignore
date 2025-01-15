@@ -31,9 +31,6 @@ pom.xml.next
 # Ignoriere eventuell generierte Backup-Dateien
 *~
 
-# Ignore macOS-specific files
-*.DS_Store
-
 # Ignoriere .json-Dateien
 *.json
 
