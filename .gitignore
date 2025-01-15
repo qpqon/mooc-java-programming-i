@@ -1,10 +1,6 @@
 # Ignoriere den target-Ordner (Build-Artefakte)
 target/
 
-# Ignoriere nur Java-Dateien unter src/test/
-src/test/**/*.java
-
-
 # Ignoriere temporäre Dateien und Ordner
 *.log
 *.tmp
@@ -41,5 +37,5 @@ pom.xml.next
 # Ignoriere alle pom.xml-Dateien im Projekt
 **/pom.xml
 
-# Ignoriere alle Dateien in src/test/java/
-src/test/java/
+# Ignoriere alle Helsinki-Test-Dateien
+**/src/test/
